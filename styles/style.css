@@ -37,7 +37,8 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left: 64px;
+  margin:0 0 0 64px;
+  padding: 0;
   z-index: 2;
   align-self: center;
 }
@@ -100,7 +101,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 30px;
+  margin: 30px 0 0 0;
+  padding: 0;
 }
 .two-columns__paragraph:first-of-type {
   margin: 0;
@@ -229,7 +231,6 @@
   box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
-  height: 1px;
 }
 
 .footer__columns {
@@ -238,8 +239,7 @@
   width: 90%;
   margin: auto;
   color: white;
-  height: 100%;
-
+  min-height: inherit;
 }
   
 .footer__column {
@@ -247,7 +247,7 @@
     flex-direction: column;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 
@@ -282,7 +282,7 @@
   text-decoration: none;
   
 }
-.footer__column_links{
+.footer__column-links{
   margin-top: 20px;
   margin-bottom: 16px;
   padding: 0;
