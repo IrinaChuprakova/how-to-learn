@@ -239,7 +239,7 @@
   width: 90%;
   margin: auto;
   color: white;
-  min-height: inherit;
+  min-height: 250px;
 }
   
 .footer__column {
